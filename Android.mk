@@ -11,6 +11,3 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
 	com.tmobile.themes
 
 include $(BUILD_PACKAGE)
-
-# including the test apk
-include $(call all-makefiles-under,$(LOCAL_PATH))
